@@ -10,10 +10,6 @@ export default function Index() {
       <Link href="/messages/chardonay" style={styles.text}>
         I am Chardonnay
       </Link>
-
-      <Link href="/profile" style={styles.text}>
-        Profile
-      </Link>
     </View>
   );
 }

@@ -23,7 +23,7 @@ interface Message {
   toUserId: string;
 }
 
-export default function DetailsScreen() {
+export default function MessagesScreen() {
   const { id } = useLocalSearchParams();
   const [text, onChangeText] = useState("");
   const messages =

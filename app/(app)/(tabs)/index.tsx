@@ -5,10 +5,14 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Link href="/messages/adonis" style={styles.text}>
-        I am Adonis
+        I am Adons
       </Link>
       <Link href="/messages/chardonay" style={styles.text}>
         I am Chardonnay
+      </Link>
+
+      <Link href="/profile" style={styles.text}>
+        Profile
       </Link>
     </View>
   );

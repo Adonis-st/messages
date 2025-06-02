@@ -25,7 +25,10 @@ export default function RootLayout() {
       }
     >
       <Stack>
-        <Stack.Screen name="index" />
+        <Stack.Screen name="welcome" options={{ title: "Welcome" }} />
+        <Stack.Screen name="sign-in" options={{ title: "Sign in" }} />
+        <Stack.Screen name="sign-up" options={{ title: "Sign up" }} />
+        <Stack.Screen name="(app)" options={{ headerShown: false }} />
       </Stack>
     </ConvexAuthProvider>
   );
